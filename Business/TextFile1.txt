@@ -1,0 +1,15 @@
+﻿   //niye böyle katmanlara ayırıyoruz
+    //yazılımda SOLID dediğimiz standartlar var
+    //5 Tane prensibin ilk harfleri
+    //SOLID->yazılımda kodlamanın STANDARTLARI
+    //yazılım günlük hayatın planlanmasıdır.Bir inşaat projesi gibi değildir.
+    //inşaat projesinde 4 kat çıkıp 3+1 ayarladığın evleri 4+1 veya her katta  2 daire üzerinden ayarladığın yapıyı 4 kat çıktıktan sonra ben 3 daire çıkarıyorum diyemiyoruz.çünkü inşaat projesi her şeyi yıkıp dökmek lazım.
+    //ama yazılımda müşteri ihtiyaçları değişebilir.
+   //müşteri ihtiyaçları değişebilir,mevzuat değişebilir,kurallar değişebilir, müşteri yanlış anlamış,biz yanlış anlatmış
+   //eğer sizin projeniz 4 kat çıkmış olan mütehitin durumuna gelirse kısacası herhangi değişiklik talebinde sizin ürününüz direnç gösterirse,bz derizki bu arkadaşımız kodlamayı yaparken SOLID yazılım geliştirme prensiplerine uymamıştır.
+
+   //S->single responsibility->Tek sorumluluk prensibi(her katman ,her class,her if bloğu,her method) yalnızca bir işi yapar,o yüzden katmanlara bölüyoruz
+   //Entities katmanı->varlık nesnlerimi tutar(veri tabanı tablosu gibi)
+   //Business katmanı->iş kuralları(yazılım geliştirirken,kod yazarken en çok yazdığımız ,en çok kullanıdğımız konulardan biri olan if bloğunu business içinde kullannırız)
+   //Abstract->Soyut->soyut nesnelerimizi tutucak
+   //Concrete->Somut->somut nesnlerimizi tutucak
